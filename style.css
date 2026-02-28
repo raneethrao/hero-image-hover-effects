@@ -1,0 +1,126 @@
+.trans1{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url(./images/bahubali.jpg);
+    background-size: contain;
+    background-size: cover;
+    transition-property: all;
+    transition: 2s;
+
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.trans1:hover{
+    height: 400px;
+    width: 300px;
+    background-image: url(./images/bahubali2.jpg);
+    transform: rotateY(180deg) scaleX(-1);
+    
+    
+
+}
+
+
+
+.trans2{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url(./images/allu1.jpg);
+    background-size: contain;
+    background-size: cover;
+    transition-property: all;
+    transition: 2s;
+}
+
+
+.trans2:hover{
+    height: 400px;
+    width: 300px;
+    background-image: url(./images/allu2.jpg);
+    transform: rotateY(180deg) scaleX(-1);
+    
+}
+
+.trans3{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url(./images/dhruv2.jpg);
+    background-size: contain;
+    background-size: cover;
+    transition-property: all;
+    transition: 2s;
+}
+
+
+.trans3:hover{
+    height: 400px;
+    width: 300px;
+    background-image: url(./images/dhruv1.jpg);
+    transform: rotateY(180deg) scaleX(-1);
+    
+}
+
+
+
+.trans4{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url(./images/danush1.jpg);
+    background-size: contain;
+    background-size: cover;
+    transition-property: all;
+    transition: 2s;
+}
+
+
+.trans4:hover{
+    height: 400px;
+    width: 300px;
+    background-image: url(./images/danush2.jpg);
+    transform: rotateY(180deg) scaleX(-1);
+    
+}
+
+
+
+.trans5{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url(./images/vijay\ devarakonda1.jpg);
+    background-size: contain;
+    background-size: cover;
+    transition-property: all;
+    transition: 2s;
+}
+
+
+.trans5:hover{
+    height: 400px;
+    width: 300px;
+    background-image: url(./images/vijay\ devarakonda2.jpg);
+    transform: rotateY(180deg) scaleX(-1);
+    
+}
+
+body{
+    background: linear-gradient(to left,lightpink,lightblue)
+}
